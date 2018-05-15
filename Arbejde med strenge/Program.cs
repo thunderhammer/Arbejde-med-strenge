@@ -31,7 +31,7 @@ namespace Arbejde_med_strenge
                 Console.WriteLine(ar1[i]);
             }
 
-
+            System.IO.File.WriteAllText(forNavn,forNavn);
         }
     }
 }
